@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+		<name>Aoo!Player Wonderful</name>
+		<version>2.7</version>
+		<author name="Oleg Korzhanov. X!">
+				<info url="http://aooplayer.com" />
+		</author>
+		<copyright>X!©, 2012</copyright>
+		<description>Gadget for Windows 7 Sidebar. Audio player for vk.com by X!Factorial Dev.
+            The special edition commissioned by national system MMM-2012</description>
+		<icons>
+		<icon width="128" height="128" src="icon.png" />
+    	</icons>
+		<hosts>
+				<host name="sidebar">
+						<base type="HTML" apiVersion="1.0.0" src="gadget.html" />
+						<permissions>full</permissions>
+						<platform minPlatformVersion="0.3" />
+						<defaultImage src="icon.png" />
+				</host>
+		</hosts>
+</gadget>

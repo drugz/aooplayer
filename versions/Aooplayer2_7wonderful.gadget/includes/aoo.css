@@ -1,0 +1,509 @@
+body {
+    color: #fff;
+}
+.logo {
+    background: url(aoologo.png) no-repeat top left;
+}
+.logo:hover {
+    background: url(aoologo.png) no-repeat bottom left;
+}
+
+.pause {
+    background: url(button_play.png) no-repeat;
+}
+
+.pause:hover {
+    background: url(button_play_hover.png) no-repeat;
+}
+
+.play {
+    background: url(button_pause.png) no-repeat;
+}
+
+.play:hover {
+    background: url(button_pause_hover.png) no-repeat;
+}
+
+.next {
+    background: url(button_next.png) no-repeat;
+}
+
+.next:hover {
+    background: url(button_next_hover.png) no-repeat;
+}
+
+.prev {
+    background: url(button_prev.png) no-repeat;
+}
+
+.prev:hover {
+    background: url(button_prev_hover.png) no-repeat;
+}
+.track {
+    color: #fff;
+}
+
+.track a {
+    color: #fff;
+}
+
+#status {
+    color: #fff;
+}
+ul.tabs {
+    border-top: #ccc 1px solid;
+}
+ul.tabs a, ul.tabs a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul.tabs li a.current, ul.tabs a:hover {
+    color: #FFFFFF;
+    background-position: 100%;
+    position: relative;
+    display: block;
+    bottom: 0px;
+}
+
+#scrollBox {
+    background-color: #05a900;
+}
+
+#scrollBox div {
+    background-color: #05a900;
+}
+ul.tabs a:focus {
+}
+.promoicon {background: url("icons/tabs_01.png") no-repeat;}
+.playicon {background: url("icons/tabs_02.png") no-repeat;}
+.albumicon {background: url("icons/tabs_03.png") no-repeat;}
+.loveicon {background: url("icons/tabs_06.png") no-repeat;}
+.friendsicon {background: url("icons/tabs_04.png") no-repeat;}
+.searchicon {background: url("icons/tabs_05.png") no-repeat;}
+.releaseicon {background: url("icons/tabs_08.png") no-repeat;}
+.topicon {background: url("icons/tabs_09.png") no-repeat;}
+.historyicon {background: url("icons/tabs_07.png") no-repeat;}
+
+.promoicon:hover {background-position: 100%;}
+.playicon:hover {background-position: 100%;}
+.albumicon:hover {background-position: 100%;}
+.loveicon:hover {background-position: 100%;}
+.friendsicon:hover {background-position: 100%;}
+.searchicon:hover {background-position: 100%;}
+.releaseicon:hover {background-position: 100%;}
+.topicon:hover {background-position: 100%;}
+.historyicon:hover {background-position: 100%;}
+.box ul li {
+    border-bottom: 1px transparent dotted;
+    border-top: 1px transparent dotted;
+}
+.box ul li:hover {
+    border-bottom: 1px #ffffff solid;
+    border-top: 1px #ffffff solid;
+    background: none;
+}
+
+.artist {
+    color: #ddd;
+}
+.title {
+    color: #ffffff;
+}
+
+.box a {
+    color: #fff;
+}
+
+#insearch {
+    border: 1px #fff solid;
+    border-bottom: #ccc 1px solid;
+    background: #333 url("bg.png");
+    color: #fff;
+}
+
+.plaing {
+    color: #ffffff;
+    background: transparent url("bg.png");
+}
+
+.plaing:hover {
+    color: #ffffff;
+    background: transparent url("bg.png");
+}
+.big_slider li.slide {
+    border: none;
+}
+.big_slider li.slide img {
+    border: none;
+
+}
+body {
+    width: 158px;
+    height: 66px;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+#background {
+}
+
+a:focus {
+}
+.logo {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 45px;
+    height: 40px;
+}
+.logo:hover {
+}
+.allcontrols {
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 18px;
+    width: 90px;
+    height: 30px;
+}
+
+.control {
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+}
+
+.play {
+    display: none;
+}
+
+.track-block, .status {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 48px;
+    width: 140px;
+    height: 12px;
+    overflow: hidden;
+}
+
+.track {
+    display: block;
+    font: 10px Arial, Helvetica, sans-serif;
+}
+
+.track a {
+    text-decoration: none;
+    cursor: arrow;
+}
+.timer {
+    font: 8px Arial, Helvetica, sans-serif;
+    float: left;
+    margin-right: 2px;
+}
+.lastfm, .shuffle {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.lastfm.on {
+    background: url("icons/last.png");
+}
+.shuffle {
+    background: url("icons/shuffle.png") left top;
+}
+.shuffle.on, .shuffle:hover  {
+    background: url("icons/shuffle.png") right top;
+}
+.status {
+    top: 7px;
+}
+#uploading {
+    display: inline-block;
+    float: left;
+    background: url("uploader.gif") no-repeat center;
+    width: 13px;
+    height: 9px;
+}
+#status {
+    display: inline-block;
+    float: left;
+    font: 8px Arial, Helvetica, sans-serif;
+}
+
+.sections {
+    display: block;
+    position: absolute;
+    height: 200px;
+    width: 145px;
+    left: 6px;
+    bottom: 10px;
+}
+
+ul.tabs {
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    height: 17px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    left: 3px;
+}
+
+ul.tabs li {
+    display: block;
+    float: left;
+}
+
+ul.tabs a, ul.tabs a:visited {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.box {
+    position: relative;
+    top: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 180px;
+    width: 149px;
+    display: none;
+    font-size: 9px;
+    left: 0;
+}
+
+.box.visible {
+    display: block;
+}
+#promolist,
+#alllist,
+#lovelist,
+#searchlist,
+#toplist,
+#historylist
+{
+    height: 180px;
+    width: 149px;
+}
+
+.box ul {
+    list-style: none;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    width: 140px;
+}
+.box ul li {
+    list-style: none;
+    width: 140px;
+    position: relative;
+    margin: 2px;
+    font-size: 9px;
+}
+.box ul li:hover {
+    font-size: 9px;
+}
+
+.aootrack{
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+    width: 115px;
+    padding: 5px;
+    padding-right: 0px;
+    float: left;
+}
+
+.aootrack:hover {
+    padding: 5px;
+    padding-right: 0px;
+}
+.artist {
+    font-size: 9px;
+    font-family: Segoe UI;
+    display: block;
+    margin: 0;
+    padding: 1px;
+    padding-right: 0;
+    width: 120px;
+}
+.title {
+    font-size: 10px;
+    font-family: Segoe UI;
+}
+
+.acts {
+    display: none;
+    max-width: 24px;
+    min-width: 12px;
+    top: 0px;
+    right: 0px;
+    float: right;
+}
+
+.box ul li:hover .acts {
+    display: block;
+}
+
+.acts a {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    border: none;
+}
+
+.acts {
+    border: none;
+}
+
+.acts_add {
+    background: url("acts.png") no-repeat 0% 0%;
+}
+
+.acts_add:hover {
+    background: url("acts.png") no-repeat 100% 0%;
+}
+.acts_del {
+    background: url("acts.png") no-repeat 0% 36%;
+}
+.acts_del:hover {
+    background: url("acts.png") no-repeat 100% 36%;
+}
+.acts_like, .acts_unlike:hover {
+    background: url("acts.png") no-repeat 0% 67%;
+}
+.acts_like:hover, .acts_unlike {
+    background: url("acts.png") no-repeat 100% 67%;
+}
+
+.acts_share {
+    background: url("acts.png") no-repeat 0% 100%;
+}
+
+.acts_share:hover{
+    background: url("acts.png") no-repeat 100% 100%;
+}
+
+#insearch {
+    width: 143px;
+    height: 15px;
+    bottom: 25px;
+    margin: auto;
+    padding: 1px;
+    z-index: 1000;
+    font-family: 'Arial';
+    font-weight: lighter;
+    font-stretch: expanded;
+    font-variant: stylistic;
+    font-size: 10px;
+    position: fixed;
+}
+
+.plaing {
+}
+
+.plaing:hover {
+}
+
+#release {
+    display: block;
+    position: absolute;
+    width: 145px;
+}
+
+.big_slider_wrapper {
+    position: absolute;
+    width: 145px;
+    height: 180px;
+    margin: 0 auto;
+    top: 0;
+    overflow: hidden;
+}
+
+.big_slider {
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+    display: inline-block;
+}
+
+#big_slider .slide {
+    position: relative;
+    float: left;
+    display: block;
+    width: 145px;
+    height: 180px;
+}
+
+.slide span.slide_desc {
+    position: absolute;
+    bottom: 3px;
+    left:15px;
+    right:15px;
+    display: block;
+    width: 120px;
+    font-size: 9px;
+    text-align: center;
+}
+.slide a.site {
+    background: url("icons/browse.png") no-repeat top right;
+    padding-right: 14px;
+    display: inline-block;
+}
+.big_slider .slide img {
+    width: 145px;
+    margin: auto 0;
+}
+.big_slider_prev,
+.big_slider_next {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    z-index: 50;
+    height: 15px;
+    width: 15px;
+    bottom: 0;
+}
+
+.big_slider_prev {
+    left: 5px;
+    text-align: left;
+}
+
+.big_slider_next {
+    right: 5px;
+    text-align: right;
+}
+
+#scrollBar {
+    height: 185px;
+    width: 6px;
+    display: block;
+    position: absolute;
+    right: -4px;
+    top: 0;
+    overflow: hidden;
+}
+#scrollBox {
+    height: 5px;
+    width: 5px;
+    background-color: #05a900;
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+#scrollBox div {
+    background-color: #05a900;
+    position: relative;
+    margin-top: -5px;
+    height: 15px;
+    width: 5px;
+}

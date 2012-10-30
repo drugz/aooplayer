@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Aoo!Player Settings</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="alert.vbs" type="text/vbscript"></script>
+	<script type="text/javascript" src="jquery-1.5.1.min.js"></script>
+	<script type="text/javascript" src="locale.js"></script>
+	<script type="text/javascript" src="localize.js"></script>
+    <script type="text/javascript" src="lastfm.f.js"></script>
+	<script type="text/javascript" src="settings.js"></script>
+	<style>
+	body {
+	font: normal 9px Segoe UI, Arial;
+	width:180px;
+	height:325px;
+    }
+    #userphoto {
+        width: 30px;
+        height: 30px;
+        display: block;
+        float: right;
+        /*position: relative;*/
+        margin-right: 2px;
+        margin-top: 5px;
+
+    }
+    #userphoto img {
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+    #logout {
+    color: #1e69de;
+    text-decoration: underline;}
+
+    #about a {
+        color: #0066ff;
+        /*border: 2px #0066ff dashed;*/
+        border: none;
+        display: block;
+        /*width: 105px;*/
+        height: 50px;
+        line-height: 40px;
+        margin: 3px;
+        /*margin-bottom: 0;*/
+        /*padding: 5px;*/
+        text-align: left;
+        text-decoration: none;
+    }
+    #about div {
+        margin: 0px;
+        display: block;
+        height: 50px;
+    }
+    #about img {
+        float: left;
+        margin-right: 5px;
+        border: none;
+        width: 50px;
+    }
+    /*#xfactorial {*/
+        /*margin: 5px;*/
+        /*color: #ff0099;*/
+        /*text-decoration: none;*/
+        /*display: block;*/
+        /*width: 14px;*/
+        /*text-align: center;*/
+        /*padding: 3px;*/
+        /*border: 2px transparent dashed;*/
+        /*color: #ff0066;*/
+        /*border: 2px #ff0066 dashed;*/
+    /*}*/
+
+    /*#xfactorial:hover {*/
+    /*}*/
+
+    .switch_wrapper {
+        display: inline-block;
+        width:170px;
+        border: none;
+        font-size: 9px;
+        /*border: #000 1px solid;*/
+
+    }
+    .switch {
+        background: url("includes/switch.png") no-repeat left bottom;
+        height: 40px;
+        width: 34px;
+        display: block;
+        float: left;
+    }
+    .off{
+        background: url("includes/switch.png") no-repeat left top;
+    }
+
+    .switch_wrapper span.label {
+        display: inline-block;
+        height: 35px;
+        margin: 5px 5px;
+        /*border: #000 1px solid;*/
+    }
+    </style>
+     <script type="text/javascript">
+
+//  var _gaq = _gaq || [];
+//  _gaq.push(['_setAccount', 'UA-26250826-1']);
+//  _gaq.push(['_trackPageview']);
+<!---->
+//  (function() {
+//    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+//    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+//    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+//  })();
+
+</script>
+</head>
+
+<body id="settings">
+<div id="login" class="switch_wrapper">
+    <div class="switch off"></div>
+    <span id="userphoto"></span>
+    <span class="label"><b localize="vk">ВКонтакте</b><br>
+        <span id="name"></span>
+    </span>
+</div>
+
+<div id="lastfm" class="switch_wrapper">
+<div class="switch off"></div>
+    <span class="label">Scrobbling to Last.FM<br><span id="lastfm_name"></span></span>
+</div>
+<div id="broadcast" class="switch_wrapper" localize="title:broadcastLabel2">
+<div class="switch off"></div>
+    <span class="label"><span localize="broadcastLabel" ></span><span localize=""></span></span>
+</div>
+<hr>
+	<div id="about">
+	<div id="upd">
+
+            <a localize="about,href:aboutHref,title:aboutTitle" href="http://aooplayer.com/?aooplayer2.7">Aoo!Player
+                <!--<img src="includes/load-indicator.gif">-->
+            </a>
+
+    </div>
+            <a id="xfactorial" href="http://xfactorial.com?aooplayer2.7"><img src="/xdev.png" alt="">xfactorial.com</a>
+        <a target="_blank" href="http://www.sergey-mavrodi.com/?i=ok" localize="invite" ><img src="/mmm.png"></a>
+        <!---->
+
+    </div>
+
+</body>
+
+</html>

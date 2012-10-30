@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Aoo!Player Settings</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="alert.vbs" type="text/vbscript"></script>
+	<script type="text/javascript" src="jquery-1.5.1.min.js"></script>
+	<script type="text/javascript" src="locale.js"></script>
+	<script type="text/javascript" src="localize.js"></script>
+	<script type="text/javascript" src="settings.js"></script>
+	<style>
+	body {
+	font: normal 10px Segoe UI, Arial;
+	width:140px;
+	height:310px;
+    }
+    #login {
+    display:block;
+	font: 9px Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+    background: url("/includes/vkontakte.png") no-repeat ;
+    width: 130px;
+    height: 32px;
+        }
+    #logout {
+    color: #1e69de;
+    text-decoration: underline;}
+    #tokenin {
+        display: none;
+        font: 10px Arial, Helvetica, sans-serif;
+        width: 120px;
+        padding: 5px;
+
+    }
+    #token {
+        width: 120px;
+        height: 50px;
+        display: block;
+
+    }
+    #about a{
+        color: #0066ff;
+        border: 2px #0066ff dashed;
+        display: block;
+        width: 105px;
+        margin: 5px;
+        margin-bottom: 0;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+    }
+    #xfactorial {
+        margin: 5px;
+        color: #ff0099;
+        text-decoration: none;
+        display: block;
+        width: 14px;
+        text-align: center;
+        padding: 3px;
+        border: 2px transparent dashed;
+    }
+
+    #xfactorial:hover {
+        color: #ff0066;
+        border: 2px #ff0066 dashed;
+    }
+
+	</style>
+     <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26250826-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body id="settings">
+<!--<div id="debugger"></div>-->
+	<div id="autorization">
+	<!--<p>-->
+        <a id="login" onclick="login(); return false;"></a>
+	<!--</p>-->
+	<div id="tokenin">
+        <div id="userphoto"></div>
+        <div id="name"></div>
+        <div id="logout">Logout</div>
+        <!--<p><label for="token" localize="tokenLabel"></label></p>-->
+		<!--<p><textarea id="token" size="25" onChange=""></textarea><br>-->
+<!---->
+		<!--<small localize="tokenCondition"></small>-->
+	
+</div>
+        <p><label for="shuffle" localize="shuffleLabel"></label><input type="checkbox" id="shuffle"></p></div>
+	<div id="about"><p><a localize="about,href:aboutHref,title:aboutTitle" href="http://aooplayer.com/?aooplayer2.2">Aoo!Player <img src="includes/load-indicator.gif"></a>
+               </p></div>
+    <a id="xfactorial" href="http://xfactorial.com?aooplayer2.2">X!</a>
+<a href="http://rus-mmm.ru/?aooplayer2.2">Регистрация</a>
+
+</body>
+
+</html>

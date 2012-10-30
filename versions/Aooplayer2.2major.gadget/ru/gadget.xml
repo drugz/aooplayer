@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+		<name>Aoo!Player MMMajor</name>
+		<version>2.2</version>
+		<author name="Oleg Korzhanov. X!">
+				<info url="http://aooplayer.com" />
+		</author>
+		<copyright>X!©, 2012</copyright>
+		<description>Гаджет Windows 7 Sidebar. Аудиоплеер для vk.com от X!Factorial Dev. Специальное издание по заказу народной системы MMM-2011, структура "Флагманы", ячейка "Respect" </description>
+		<icons>
+		<icon width="128" height="128" src="icon.png" />
+    	</icons>
+		<hosts>
+				<host name="sidebar">
+						<base type="HTML" apiVersion="1.0.0" src="./gadget.html" />
+						<permissions>full</permissions>
+						<platform minPlatformVersion="0.3" />
+						<defaultImage src="icon.png" />
+				</host>
+		</hosts>
+</gadget>

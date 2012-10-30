@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+		<name>Aoo!</name>
+		<version>1.0</version>
+		<author name="Oleg Korzhanov. X!">
+				<info url="xfactorial.com" />
+		</author>
+		<copyright>2011</copyright>
+		<description>Гаджет для Windows Sidebar. Аудиоплейер для vkontakte.ru от Xfactorial Dev.</description>
+		<icons>
+		<icon width="128" height="128" src="icon.png" />
+    	</icons>
+		<hosts>
+				<host name="sidebar">
+						<base type="HTML" apiVersion="1.0.0" src="./gadget.html" />
+						<permissions>full</permissions>
+						<platform minPlatformVersion="0.3" />
+						<defaultImage src="icon.png" />
+				</host>
+		</hosts>
+</gadget>
